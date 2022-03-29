@@ -1,3 +1,10 @@
+
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design] 
+set_property BITSTREAM.CONFIG.UNUSEDPIN Pullup [current_design] 
+
+
+
+
 set_property PACKAGE_PIN AG14 [get_ports {ddr4_rtl_0_adr[0]}]
 set_property PACKAGE_PIN AF17 [get_ports {ddr4_rtl_0_adr[1]}]
 set_property PACKAGE_PIN AF15 [get_ports {ddr4_rtl_0_adr[2]}]
@@ -130,24 +137,12 @@ set_property PACKAGE_PIN AF22 [get_ports {ddr4_rtl_0_dq[6]}]
 set_property PACKAGE_PIN AE23 [get_ports {ddr4_rtl_0_dq[7]}]
 
 
-set_property PACKAGE_PIN AF6 [get_ports diff_clock_rtl_0_clk_p]
+##set_property PACKAGE_PIN AK17 [get_ports diff_clock_rtl_0_clk_p]
 
 
-create_clock -period 5.000 [get_ports diff_clock_rtl_0_clk_p]
 
 
-set_property IOSTANDARD DIFF_SSTL12 [get_ports sys_clk_p]
-
-
-set_property PACKAGE_PIN AF5 [get_ports diff_clock_rtl_0_clk_n]
-
-
-create_clock -period 5.000 [get_ports diff_clock_rtl_0_clk_n]
-
-
-set_property IOSTANDARD DIFF_SSTL12 [get_ports sys_clk_n]
-
-set_property PACKAGE_PIN K21 [get_ports reset_rtl_0]          ##//key1
+set_property PACKAGE_PIN K21 [get_ports reset_rtl_0]
 set_property IOSTANDARD LVCMOS18 [get_ports reset_rtl_0]
 
 
@@ -158,6 +153,12 @@ set_property IOSTANDARD LVCMOS18 [get_ports reset_rtl_0]
 set_property CFGBVS VCCO [current_design]
 set_property CONFIG_VOLTAGE 3.3 [current_design]
 
-set_property IOSTANDARD DIFF_HSTL_I_12 [get_ports diff_clock_rtl_0_clk_p]
-set_property IOSTANDARD DIFF_HSTL_I_12 [get_ports diff_clock_rtl_0_clk_n]
+##set_property IOSTANDARD DIFF_HSTL_I_12 [get_ports diff_clock_rtl_0_clk_p]
+##set_property IOSTANDARD DIFF_HSTL_I_12 [get_ports diff_clock_rtl_0_clk_n]
 
+
+create_clock -period 5.000 [get_ports sys_clk_p]
+
+set_property PACKAGE_PIN Ak17 [get_ports sys_clk_p]
+
+set_property IOSTANDARD DIFF_SSTL12 [get_ports sys_clk_p]
