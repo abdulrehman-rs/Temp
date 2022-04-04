@@ -1,0 +1,2 @@
+# Copy files from server to local PC (Khyber )
+scp -r -P 63113 abdul.rehman@192.168.14.198:/home/users/abdul.rehman/project_1 ./Desktop/
