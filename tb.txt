@@ -174,3 +174,172 @@ assign cfg_blsr_region_0_i_0 = {cfg_blsr_tail_e2f,31'h0};
 assign cfg_wlsr_region_0_i_0 = {cfg_wlsr_tail_e2f,31'h0};
 assign cfg_blsr_head_f2e_ot = cfg_blsr_region_0_o_0[0];
 assign cfg_wlsr_head_f2e_ot = cfg_wlsr_region_0_o_0[0]; 
+/////////////////////////////////////////////////////////////////////
+Synthesis
+Out-of-Context Module Runs
+microblaze_gpio
+microblaze_gpio_gpio_top_0_0_synth_1
+[Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. ["/home/users/abdul.rehman/Downloads/mpw1_v2/MPW1-BringUp-main/rtl/gpio_vivado_2017/gpio_v17/gpio_v17.srcs/sources_1/bd/microblaze_gpio/ip/microblaze_gpio_gpio_top_0_0/gpio_v17/gpio_v17.srcs/sources_1/bd/rx_fifo/ip/rx_fifo_fifo_generator_0_0/rx_fifo_fifo_generator_0_0_ooc.xdc":55]
+
+[Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. ["/home/users/abdul.rehman/Downloads/mpw1_v2/MPW1-BringUp-main/rtl/gpio_vivado_2017/gpio_v17/gpio_v17.srcs/sources_1/bd/microblaze_gpio/ip/microblaze_gpio_gpio_top_0_0/gpio_v17/gpio_v17.srcs/sources_1/bd/tx_fifo/ip/tx_fifo_fifo_generator_0_0/tx_fifo_fifo_generator_0_0_ooc.xdc":55]
+
+[Synth 8-5799] Converted tricell instance 'i_9' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_10' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_11' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_12' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_13' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_14' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_15' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_16' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_17' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_18' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_19' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_20' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_21' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_22' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_23' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_24' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_25' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_26' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_27' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_28' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_29' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_30' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_31' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_32' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_33' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_34' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_35' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_36' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_37' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_38' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_39' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_40' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_41' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_42' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_43' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_44' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_45' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_46' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_47' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_48' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_49' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_50' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_51' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_52' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_53' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_54' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_55' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_56' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_57' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_58' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_59' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_60' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_61' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_62' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_63' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_64' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_65' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_66' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_67' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_68' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_69' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_70' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_71' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_72' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_73' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_74' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_75' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_76' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_77' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_78' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_79' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_80' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_81' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_82' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_83' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_84' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_85' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_86' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_87' to logic
+
+[Synth 8-5799] Converted tricell instance 'i_88' to logic
+
